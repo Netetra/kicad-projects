@@ -2965,7 +2965,7 @@
 		)
 	)
 	(gr_text "※6Aまで"
-		(at 160 88 270)
+		(at 158.5 67 270)
 		(layer "F.SilkS")
 		(uuid "9f3666a2-c08b-44cc-bfe4-0a3f066ad8b2")
 		(effects
@@ -2977,7 +2977,7 @@
 		)
 	)
 	(gr_text "配電基盤 (5V) v1"
-		(at 160 68 270)
+		(at 160.5 67 270)
 		(layer "F.SilkS")
 		(uuid "a77dad94-bf3a-4846-9a69-b17b1940d919")
 		(effects
