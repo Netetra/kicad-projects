@@ -2711,7 +2711,7 @@
 		(uuid "eb798a8c-19ea-4f6f-a772-468353acb3a1")
 	)
 	(gr_text "※10Aまで"
-		(at 106 53 -90)
+		(at 113 73 90)
 		(layer "F.SilkS")
 		(uuid "da60286a-fd29-4431-99c4-30e68b4c45ec")
 		(effects
@@ -2723,7 +2723,7 @@
 		)
 	)
 	(gr_text "配電基盤 (12V) v1"
-		(at 108 53 -90)
+		(at 111 73 90)
 		(layer "F.SilkS")
 		(uuid "dc10d890-d64f-4542-9119-77ed91d49fdd")
 		(effects
@@ -2735,7 +2735,7 @@
 		)
 	)
 	(gr_text "新居浜高専"
-		(at 110.5 53 -90)
+		(at 108.5 73 90)
 		(layer "F.SilkS")
 		(uuid "ea9fde7c-c183-4a3f-b396-1b6bc971aa06")
 		(effects
