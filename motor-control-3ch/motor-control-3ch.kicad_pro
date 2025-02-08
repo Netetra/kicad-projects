@@ -41,14 +41,14 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.16,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.16,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.5
         }
       ],
       "drc_exclusions": [],
@@ -116,22 +121,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.33,
-        "min_hole_to_hole": 0.5,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_copper_edge_clearance": 0.2,
+        "min_hole_clearance": 0.35,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.0,
+        "min_microvia_drill": 0.0,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_silk_clearance": 0.15,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.153,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.16,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.25,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -150,7 +155,7 @@
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
-          "td_on_pad_in_zone": true,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
@@ -179,11 +184,10 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.25,
         0.5,
-        0.75,
-        1.0,
-        1.5
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -215,6 +219,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -234,9 +246,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|520700|279400|9e6f98e1-8f44-4d4d-8142-69f62d89e5d3|ce347013-f3e5-4a7a-b3e2-6027fd05bc47|/8a05aa10-9bb4-4bec-8e67-331108dc97a9|/8a05aa10-9bb4-4bec-8e67-331108dc97a9|/8a05aa10-9bb4-4bec-8e67-331108dc97a9"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -451,7 +461,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "f446re-motor-3ch.kicad_pro",
+    "filename": "f446re-template.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -583,6 +593,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -596,7 +614,7 @@
   },
   "sheets": [
     [
-      "8a05aa10-9bb4-4bec-8e67-331108dc97a9",
+      "0b4df6fe-50e4-4216-95df-ce981b602999",
       "ルート"
     ]
   ],
