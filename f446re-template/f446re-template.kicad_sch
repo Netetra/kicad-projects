@@ -5907,7 +5907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200Ω"
+		(property "Value" "1kΩ"
 			(at 93.98 144.7799 0)
 			(effects
 				(font
@@ -7916,7 +7916,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200Ω"
+		(property "Value" "1kΩ"
 			(at 80.01 144.7799 0)
 			(effects
 				(font
@@ -8254,7 +8254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "???Ω"
+		(property "Value" "1kΩ"
 			(at 24.13 63.4999 0)
 			(effects
 				(font
