@@ -53,13 +53,12 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "f446re-template.kicad_prl",
+    "filename": "f303k8-keyholder.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

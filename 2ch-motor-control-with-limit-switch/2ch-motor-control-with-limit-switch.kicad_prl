@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "f446re-template.kicad_prl",
+    "filename": "2ch-motor-control-with-limit-switch.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
